@@ -32,7 +32,7 @@ const Header = () => {
           Request a Quote
         </button>
       </div>
-      <div></div>
+      <div className="lg:hidden"></div>
     </div>
   );
 };
