@@ -7,21 +7,20 @@ const RadioButtons = ({ options, name, direction, onChange }) => {
         <label
           key={index}
           htmlFor={`${name}-${option}`}
-          className="flex justify-start items-center gap-2 relative cursor-pointer overflow-hidden"
+          className="flex justify-start items-center gap-2 relative cursor-pointer"
         >
-          <div className="h-4 w-4 md:w-6 md:h-6 border rounded-full flex justify-center items-center">
-            <div className="h2 w-2 lg:w-4 lg:h-4 rounded-full opacity-0 bg-green-500 peer-checked:opacity-100"></div>
-
+          <div className="h-6 w-6 border rounded-full flex justify-center items-center">
             <input
               type="radio"
               name={name}
               id={`${name}-${option}`}
               value={option}
-              className="absolute w-full h-full z-10 opacity-0 peer cursor-pointer"
-              //   onChange={() => onChange(option)}
+              className="absolute w-full h-full opacity-0 peer cursor-pointer text-green bg-green"
+              onChange={() => onChange && onChange(option)}
             />
+            <div className="h-4 w-4 rounded-full bg-green opacity-0  peer-checked:opacity-100 transition"></div>
           </div>
-          {/* Label Text */}
+
           <span className="hover:underline text-sm md:text-base">{option}</span>
         </label>
       ))}

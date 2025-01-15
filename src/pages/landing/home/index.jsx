@@ -16,7 +16,7 @@ const Index = () => {
   return (
     <>
       <Header />
-      <div className="container m-auto w-full p-3 md:p-0 flex flex-col gap-10 lg:gap-24 md:mb-20">
+      <div className="lg:container m-auto w-full p-3 md:p-0 flex flex-col gap-10 lg:gap-24 md:mb-20">
         <LandingWelcomeComponent />
         <ImageSlider images={logos} />
         <ServicesSection />

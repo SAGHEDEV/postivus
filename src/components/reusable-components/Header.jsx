@@ -7,7 +7,7 @@ const routes = ["About us", "Services", "Use Cases", "Pricing", "Blog"];
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="z-20 w-full flex justify-between items-center py-8 sticky mt-0 top-0 bg-white px-3 lg:container m-auto">
+    <div className="z-20 w-full flex justify-between items-center py-8 sticky mt-0 top-0 bg-white/95 backdrop-blur-[120px] px-3 lg:container m-auto">
       <img
         src="/assets/logo-dark.svg"
         alt="Postivus"

@@ -1,10 +1,16 @@
 import Index from "./pages/landing/home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="m-auto">
-      <Index />
-    </div>
+    <BrowserRouter>
+      <div className="m-auto">
+        <Routes>
+          {/* <Index /> */}
+          <Route path="/" element={<Index />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

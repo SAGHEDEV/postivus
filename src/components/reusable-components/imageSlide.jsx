@@ -6,7 +6,7 @@ const ImageSlider = ({ images, speed = 20 }) => {
     <div className="overflow-hidden relative">
       {/* Scrolling container */}
       <div
-        className="flex w-max animate-scroll"
+        className="flex w-max animate-scroll hover:!animate-none"
         style={{
           animation: `scroll ${speed}s linear infinite`,
         }}
