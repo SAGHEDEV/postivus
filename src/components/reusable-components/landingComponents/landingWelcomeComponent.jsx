@@ -17,7 +17,7 @@ const LandingWelcomeComponent = () => {
         </button>
       </div>
       <img
-        src="/assets/Illustration.png"
+        src="/assets/Illustration.svg"
         alt="Navigating the digital landscape for success"
         width={500}
         height={500}
