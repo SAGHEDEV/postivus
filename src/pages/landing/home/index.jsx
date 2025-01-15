@@ -15,8 +15,8 @@ import Footer from "../../../components/reusable-components/Footer";
 const Index = () => {
   return (
     <>
-      <div className="w-full p-3 md:p-0 flex flex-col gap-10 lg:gap-24">
-        <Header />
+      <Header />
+      <div className="container m-auto w-full p-3 md:p-0 flex flex-col gap-10 lg:gap-24 md:mb-20">
         <LandingWelcomeComponent />
         <ImageSlider images={logos} />
         <ServicesSection />

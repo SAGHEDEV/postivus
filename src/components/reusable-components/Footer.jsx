@@ -6,7 +6,7 @@ const routes = ["About us", "Services", "Use Cases", "Pricing", "Blog"];
 
 const Footer = () => {
   return (
-    <div className="w-full p-10 bg-black rounded-t-3xl flex flex-col gap-5 lg:gap-10 text-center lg:text-left">
+    <div className="w-full p-10 bg-black lg:rounded-t-3xl flex flex-col gap-5 lg:gap-10 text-center lg:text-left">
       <div className="w-full flex  flex-col lg:flex-row justify-between items-center gap-10">
         <span>
           <img src="/assets/logo-light.svg" alt="" className="md:w-40" />

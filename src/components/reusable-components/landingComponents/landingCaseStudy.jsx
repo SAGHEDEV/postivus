@@ -15,6 +15,7 @@ const LandingCaseStudy = () => {
         desc={
           "Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
         }
+        id={"use-case"}
       />
       <div className="hidden  p-12 bg-black md:flex justify-between items-center text-white rounded-[2.5rem] gap-5">
         {case_studies.map((caseStudy, index) => (
